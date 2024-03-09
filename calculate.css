@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to right,rgb(94, 92, 92),rgb(184, 180, 180),rgb(235, 230, 230));
+}
+#maincontainer{
+    border:2px solid black;
+    width:390px;
+    height:370px;
+    margin-left:400px;
+    flex-wrap: wrap;
+    margin-top:100px;
+    background-color:black ;
+    border-radius: 10px;
+}
+#clear{
+    background-color: red;
+}
+#clear:hover{
+    background-color: #b94949;
+}
+button:hover{
+    background-color: transparent;
+}
+button{
+    width:70px;
+    height:50px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    padding:10px;
+    text-align: center;
+    margin-top: 15px;
+    background-color: #242323;
+    color:white;
+    border-radius: 5px;
+    border:1px solid grey;
+}
+
+#text{
+    width:64%;
+    height:45px;
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:0px;
+    background-color: rgb(173, 171, 171);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    user-select: none;
+    border-radius:5px;
+}
